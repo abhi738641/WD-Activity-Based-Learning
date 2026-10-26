@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333;
+}
+header {
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+nav {
+    background-color: #e67e22;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+h2 {
+    color: #d35400;
+}
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.food-card {
+    background: white;
+    border: 1px solid #f5b041;
+    border-radius: 8px;
+    width: 280px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.price {
+    font-weight: bold;
+    color: #c0392b;
+    font-size: 1.1rem;
+}
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #219653;
+}
+.review-section {
+    margin-top: 30px;
+    background: #fef5e7;
+    padding: 15px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #d35400;
+    color: white;
+    margin-top: 30px;
+}
